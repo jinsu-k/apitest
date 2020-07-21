@@ -20,4 +20,7 @@ import testapi.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',testapi.views.home,name='home'),
+    path('h1',testapi.views.h1,name='h1'),
+    path('h2',testapi.views.h2,name='h2'),
+    path('h3',testapi.views.h3,name='h3'),
 ]
